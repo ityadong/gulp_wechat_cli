@@ -42,9 +42,7 @@
 ## 使用
 
 ```bash
-想了解gulp，请移步   <a href="https://www.gulpjs.com.cn/docs/getting-started/
-">https://www.gulpjs.com.cn/docs/getting-started/
-</a>
+想了解gulp，请移步  https://www.gulpjs.com.cn/docs/getting-started/
 # 安装项目依赖
 npm install
 
