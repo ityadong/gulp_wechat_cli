@@ -1,0 +1,5 @@
+<view>
+    <view class="container">
+        <text>我是首页</text>
+    </view>
+</view>

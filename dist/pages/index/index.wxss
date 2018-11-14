@@ -1,0 +1,8 @@
+/* pages/index/index.wxss */
+.container {
+  width: 400rpx;
+  height: 400rpx;
+  background: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
