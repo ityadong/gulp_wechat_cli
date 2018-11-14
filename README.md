@@ -20,8 +20,8 @@
      |   |   |-- filter.wxs',
      |   |-- img', // 图片资源
      |   |   |-- wave_two.png',
-     |   |-- lib',  // API文件 后台接口统一存放
-     |   |   |-- API.js',
+     |   |-- lib', 
+     |   |   |-- API.js', // API文件 后台接口统一存放
      |   |-- pages',
      |   |   |-- index',
      |   |   |   |-- index.js',
@@ -42,12 +42,14 @@
 ## 使用
 
 ```bash
-
 想了解gulp，请移步 https://www.gulpjs.com.cn/docs/getting-started/
+
 # 安装项目依赖
 npm install
+
 # 启动 gulp 编译 client 文件夹，会自动生成dist文件夹(编译的时候可能会报错，将dist整个文件删除，重新编译即可)
 npm run dev
+
 # 上线打包
 npm run build
 
