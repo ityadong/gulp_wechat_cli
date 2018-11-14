@@ -1,0 +1,21 @@
+/** 自定义过滤器 **/
+function getStates(value) {
+  switch (value){
+    case 'PRE_ORDER' :
+      return '预订单';
+      break;
+    case 'ONGOING_ORDER' :
+      return '进行中';
+      break;
+    case 'WAIT_ORDER' :
+      return '待验收';
+      break;
+    case 'COMPLETE_ORDER' :
+      return '已完成';
+      break;
+  }
+}
+
+module.exports = {
+  getStates: getStates
+}

@@ -1,0 +1,14 @@
+/* pages/index/index.wxss */
+.container{
+  width: 200px;
+  height: 200px;
+  background: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .box{
+    width: 12px;
+    height: 50px;
+    background: blue;
+  }
+}

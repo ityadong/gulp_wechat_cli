@@ -1,0 +1,35 @@
+{
+  "name": "gulp_wechat_cli",
+  "version": "1.0.0",
+  "description": "这是一个开发微信小程序的脚手架",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ityadong@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-css-scss": "^0.1.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-px2rem": "^1.0.13",
+    "gulp-rename": "^1.4.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0",
+    "postcss-px2rpx": "^0.0.4"
+  },
+  "dependencies": {
+    "mddir": "^1.1.1"
+  }
+}
