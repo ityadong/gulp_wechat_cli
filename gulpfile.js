@@ -37,13 +37,19 @@ let client = './client';
 let dist = './dist';
 
 
-gulp.task('wxml',()=>{
-    gulp.src(`${client}/**/*.wxml`)
+/*gulp.task('wxml',()=>{
+    gulp.src(`${client}/!**!/!*.wxml`)
         .pipe(copyhtml({
-            collapseWhitespace: false,
+            collapseWhitespace: false, //wxml 代码压缩
             removeComments: true,
             keepClosingSlash: true
         }))
+        .pipe(gulp.dest(dist))
+});*/
+
+gulp.task('wxml', () => {
+    return gulp
+        .src(`${client}/**/*.wxml`)
         .pipe(gulp.dest(dist))
 });
 
